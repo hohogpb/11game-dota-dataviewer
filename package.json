@@ -218,7 +218,12 @@
     },
     "extraResources": [
       "./assets/**"
-    ]
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "hohogpb",
+      "repo": "11game-dota-dataviewer"
+    }
   },
   "devEngines": {
     "node": ">=14.x",
