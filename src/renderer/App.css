@@ -1,0 +1,24 @@
+
+
+@tailwind components;
+@tailwind utilities;
+
+
+/* I want to use this line to set tailwind layer defined below to have a lower priority than Mantine, but it doesn't seem to work. don't know why*/
+@layer tailwind, mantine, mantine-datatable;
+
+@layer tailwind {
+  @tailwind base;
+}
+
+
+
+
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+
+}
+

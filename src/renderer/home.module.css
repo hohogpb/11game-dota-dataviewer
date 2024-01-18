@@ -1,0 +1,13 @@
+.header {
+  height: 56px;
+  margin-bottom: 10px;
+  background-color: var(--mantine-color-body);
+  border-bottom: 1px solid #ccc;
+}
+
+.inner {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
